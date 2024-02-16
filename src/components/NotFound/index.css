@@ -1,0 +1,19 @@
+.not-found-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found-heading {
+    font-family: 'Bree Serif';
+    font-size: 32px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .page-not-found-heading {
+        font-size: 64px;
+    }
+}
