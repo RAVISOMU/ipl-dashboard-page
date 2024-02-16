@@ -16,7 +16,7 @@ class TeamMatches extends Component {
   getUpdatedData = obj => ({
     competingTeam: obj.competing_team,
     competingTeamLogo: obj.competing_team_logo,
-    data: obj.date,
+    date: obj.date,
     firstInnings: obj.first_innings,
     id: obj.id,
     manOfTheMatch: obj.man_of_the_match,
